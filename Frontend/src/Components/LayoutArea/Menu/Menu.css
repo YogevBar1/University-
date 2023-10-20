@@ -1,0 +1,32 @@
+.Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .Menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .Menu a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .Menu span {
+    color: #fff;
+    margin: 0 5px;
+  }
+  
+  /* Add a separator style */
+  .Menu .separator {
+    margin: 0 5px;
+  }
+  
